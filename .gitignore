@@ -33,6 +33,7 @@ addons.make
 *.vcxproj
 *.filters
 *.user
+.vscode/
 
 ########################
 # IDE files which should
