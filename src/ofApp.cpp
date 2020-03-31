@@ -2,17 +2,24 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-
+	ofEnableAlphaBlending();
+	ofSetCircleResolution(64);
+	ofBackground(0, 0, 0);
+	ofSetFrameRate(60);
+	locationX = 0;
+	locationY = 0;
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+	locationX = locationX + 3;
+	locationY = locationY + 2;
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+	ofSetColor(0, 127, 255, 200);
+	ofCircle(locationX, locationY, 20);
 }
 
 //--------------------------------------------------------------
