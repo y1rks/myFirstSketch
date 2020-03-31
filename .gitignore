@@ -34,6 +34,13 @@ addons.make
 *.filters
 *.user
 .vscode/
+Makefile
+Project.xcconfig
+config.make
+*.xcodeproj/
+openFrameworks-Info.plist
+
+
 
 ########################
 # IDE files which should
